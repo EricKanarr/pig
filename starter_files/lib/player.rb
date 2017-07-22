@@ -52,7 +52,7 @@ end
 ## TODO add your own Player subclasses here
 class EvenPlayer < Player
   def roll_again?
-    super && @ turn_score % 2 == 0
+    super && @turn_score % 2 == 0
   end
 end
 
